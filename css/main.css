@@ -236,6 +236,12 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 56.25em) {
+  .heading-tertiary {
+    font-size: 1.3rem;
+  }
+}
+
 .paragraph {
   font-size: 1.6rem;
 }
@@ -976,6 +982,12 @@ body {
   display: table-cell;
 }
 
+@media (max-width: 56.25em) {
+  .popup__left {
+    display: none;
+  }
+}
+
 .popup__right {
   width: 66.666667%;
   display: table-cell;
@@ -1003,6 +1015,13 @@ body {
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
+
+@media (max-width: 56.25em) {
+  .popup__text {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
 }
 
 .popup:target {

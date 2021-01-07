@@ -68,6 +68,10 @@ body {
     font-size: $default-font-size;
     font-weight: 700;
     text-transform: uppercase;
+
+    @include respond(tab-port) {
+        font-size: 1.3rem;
+    }
 }
 
 .paragraph {
